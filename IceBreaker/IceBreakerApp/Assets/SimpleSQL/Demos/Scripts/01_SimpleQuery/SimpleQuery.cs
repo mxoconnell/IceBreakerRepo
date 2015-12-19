@@ -42,8 +42,7 @@ public class SimpleQuery : MonoBehaviour {
 		{
 			outputText.text += "Name: '" + weapon.WeaponName + "' " + 
 								"Damage:" + weapon.Damage.ToString() + " " + 
-								"Cost:" + weapon.Cost.ToString() + " " + 
-								"Weight:" + weapon.Weight.ToString() + " " + 
+
 								"Type:" + weapon.WeaponTypeDescription + "\n";
 		}
 
